@@ -29,12 +29,14 @@ import asyncio
 from queue import Queue, PriorityQueue
 import statistics
 import math
+import os
 
 # ==============================================================================
 # CONFIGURATION
 # ==============================================================================
-API_KEY = "API"
-API_SECRET = "API"
+
+API_KEY = os.environ["API_KEY"]
+API_SECRET = os.environ["API_SECRET"]
 
 CONFIG = {
     'leverage': 20,
