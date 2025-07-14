@@ -27,4 +27,4 @@ jobs:
 
       - name: 🚀 Esegui il bot
         run: |
-          python V1.py
+          python v1.py
